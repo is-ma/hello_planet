@@ -1,5 +1,7 @@
-require "hello_planet/version"
+require 'hello_planet/version'
 
 module HelloPlanet
-  # Your code goes here...
+  def self.hi
+    'Hello planet!'
+  end
 end
