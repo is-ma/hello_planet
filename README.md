@@ -22,7 +22,7 @@ Or install it yourself as:
 
 To run the example in **irb**, just follow the steps below:
  * Run _irb_
- * _require **'hello_planet'**
+ * _require_ **'hello_planet'**
  * _HelloPlanet.hi_
 
 ## Contributing
