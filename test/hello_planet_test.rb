@@ -5,7 +5,7 @@ class HelloPlanetTest < Minitest::Test
     refute_nil ::HelloPlanet::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def it_really_says_hello
+    assert_equal 'Hello planet!', HelloPlanet.hi
   end
 end
