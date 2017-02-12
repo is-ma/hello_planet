@@ -6,10 +6,12 @@ require 'hello_planet/version'
 Gem::Specification.new do |spec|
   spec.name          = "hello_planet"
   spec.version       = HelloPlanet::VERSION
+  spec.licenses      = ['MIT']
   spec.authors       = ["Is Ma"]
   spec.email         = ["violinantiguo@gmail.com"]
 
   spec.summary       = %q{This is an example gem, just to say "hello".}
+  spec.description   = %q{I've followed an example instructions found in http://guides.rubygems.org/ to make my own gem.}
   spec.homepage      = "https://github.com/is-ma/hello_planet"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
