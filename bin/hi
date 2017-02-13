@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-require_relative '../lib/hello_planet.rb'
-puts 'saludos'
+require_relative '../lib/hello_planet'
+to_what = ARGV[0] || 'planet'
+puts HelloPlanet.hi(to_what)

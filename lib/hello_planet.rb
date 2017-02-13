@@ -1,4 +1,4 @@
-require 'hello_planet/version'
+require_relative './hello_planet/version'
 
 module HelloPlanet
   def self.hi(to_what)
