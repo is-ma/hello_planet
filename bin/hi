@@ -1,4 +1,3 @@
 #!/usr/bin/env ruby
 require_relative '../lib/hello_planet'
-to_what = ARGV[0] || 'planet'
-puts HelloPlanet.hi(to_what)
+puts (ARGV[0].nil?) ? HelloPlanet.hi :  HelloPlanet.hi(ARGV[0])
