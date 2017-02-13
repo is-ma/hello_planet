@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'violinantiguo@gmail.com'
 
   spec.summary       = %q{This is an example gem, just to say "hello".}
-  spec.description   = %q{I've followed an example instructions found in http://guides.rubygems.org/ to make my own gem.}
+  spec.description   = %q{I've followed an example instructions found in http://guides.rubygems.org/ to make my own gem. But then I've added a customized terminal-friendly command named 'hi', so you can interact with this gem from the terminal. It's very simple, but it's the ground for other terminal-friendly gems that could do some useful work.}
   spec.homepage      = 'https://github.com/is-ma/hello_planet'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
