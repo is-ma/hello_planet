@@ -1,7 +1,7 @@
 require 'hello_planet/version'
 
 module HelloPlanet
-  def self.hi
-    'Hello planet!'
+  def self.hi(to_what)
+    "Hello #{to_what}!"
   end
 end
