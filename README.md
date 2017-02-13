@@ -27,6 +27,9 @@ require 'hello_planet'
 
 HelloPlanet.hi
   => "Hello planet!"
+
+HelloPlanet.hi 'dear-friend'
+  => "Hello dear-friend!"
 ```
 
 Or, use from the command line with:

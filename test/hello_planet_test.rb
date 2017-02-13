@@ -6,6 +6,8 @@ class HelloPlanetTest < Minitest::Test
   end
 
   def it_really_says_hello
+    assert_equal 'Hello planet!', HelloPlanet.hi
+    assert_equal 'Hello planet!', HelloPlanet.hi(nil)
     assert_equal 'Hello mom!', HelloPlanet.hi('mom')
     assert_equal 'Hello darling!', HelloPlanet.hi('darling')
   end
