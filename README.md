@@ -20,10 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-To run the example in **irb**, just follow the steps below:
- * Run _irb_
- * _require_ **'hello_planet'**
- * _HelloPlanet.hi_
+Greet yourself inside your Ruby project:
+
+```ruby
+require 'hello_planet'
+
+HelloPlanet.hi
+  => "Hello planet!"
+```
 
 ## Contributing
 
